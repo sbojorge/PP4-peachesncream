@@ -51,9 +51,8 @@ List won't be lost nor forgotten, but instead will be right at user's finger tip
 <!-- Currently showing here some examples of technologies that I'll probably use. Develop a bit for each of them as shown below for balsamiq -->
 * HTML
 * CSS
-* Bootstrap
+* Materialize
 * GitHub
-* Font Awesome
 * Convertio
     * Images were converted to WEBP format using [Convertio](https://tinyjpg.com/) 
 * Resize
@@ -102,7 +101,24 @@ It was put in place using different functionalities in GitHub:
 ![Mobiel create a list](/static/wireframes/picture_3.png)
 
 #### Typography
+A combination of two fonts were used in the desing of the application:<br> 
+* "Homemade Apple",in the logo and headings;<br>
+* "Raleway",in the body and footer.<br>
+
+This pairing of fonts provides a touch of elegance and clearness to read the rest of the content.
+
+<br>
+
+![Fonts sample](/static/images/picture_3.png)
+<br>
+
 #### Colors
+The selected color palette for in the application comes from a color generator.<br>
+This combination in the background colors and fonts adds freshness and respect the minimum contrast values for good accesibility. 
+
+![Natural palette](/static/images/picture_2.png)
+<br>
+
 #### Images
 
 ------
@@ -114,6 +130,8 @@ It was put in place using different functionalities in GitHub:
 ------
 
 ### Testing
+
+Links to social media works well.
 
 ------
 
@@ -145,6 +163,10 @@ The application was successfully deployed at the first attempt.
 
 
 ### Credits
+#### Media
+* Fonts from https://fonts.google.com/ following the article published by Canva at https://www.canva.com/learn/best-google-font-combinations/
+* Color palette from https://mycolor.space/
+
 #### Content
 * Quotation about the Kanban management methodology: visit https://asana.com/resources/what-is-kanban
 

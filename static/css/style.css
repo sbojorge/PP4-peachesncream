@@ -1,9 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Raleway&display=swap');
 
-h1,h2{
+h1,h2 {
     font-family: 'Homemade Apple', cursive;
 }
 
-body{
+html {
+    height: 100%;
+}
+
+body {
     font-family: 'Raleway', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff6f5;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Footer */
+
+footer {
+    background-color: #BD8180;
+    display: flex;
+    /* flex-shrink: 0; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.social-links {
+    padding-bottom: 0.5rem;
+}
+
+.social-links img {
+    height: 2rem;
+    width: 2rem;
 }
