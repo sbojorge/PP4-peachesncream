@@ -9,14 +9,23 @@
     {% block materialize_css %} 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     {% endblock %}
-    {% block onload_js %} 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    {% block materialize_icons %} 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     {% endblock %}
+    
     <link rel="stylesheet" href="{% static '/css/style.css' %}">
     <title>Peachesncream - {% block title %}{% endblock %}</title>
 </head>
 <body>
+    {% include 'includes/header.html' %}
+
     <h1>This is going to look good!</h1>
+
+    Another day with Django
     
 </body>
+{% block onload_js %} 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+{% endblock %}
+<script src="{% static '/js/script.js' %}"></script>
 </html>
