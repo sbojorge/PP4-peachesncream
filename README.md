@@ -1,13 +1,11 @@
-![Peachesncream logo]
-
-<!-- Ideally replace the code institute logo with the one for your application -->
+![Peachesncream logo](/static/images/picture_1.webp)
 
 # Peaches 'n cream
 
 
-This is a grocery shopping list application that, as its [meaning](https://dictionary.cambridge.org/dictionary/english/peaches-and-cream) in informal english states, is expected to be pleasant and easy.<br>
-It'll be useful for users searching to organize their trips for groceries.
-The application lets the user create, read, update and/or delete grocery shopping lists. <br>
+This is a grocery shopping list application that aims to be pleasant and easy.<br>
+It'll be useful for users searching to organize their trips for groceries.<br>
+The application lets the user create, read, update and/or delete grocery shopping lists.<br>
 List won't be lost nor forgotten, but instead will be right at user's finger tips in his/her mobile.<br>
 <br>
 
@@ -90,9 +88,19 @@ It was put in place using different functionalities in GitHub:
 
 ### Design
 #### Database schema
-##### Wireframes
-* Mobile
-* Desktop
+#### Wireframes
+* Landing page
+
+![Browser landing page](/static/wireframes/picture_1.png)
+
+![Mobile landing page](/static/wireframes/picture_2.png)
+
+* Create a list
+
+![Browser create a list](/static/wireframes/picture_3.png)
+
+![Mobiel create a list](/static/wireframes/picture_3.png)
+
 #### Typography
 #### Colors
 #### Images
