@@ -1,8 +1,9 @@
-from django.urls import path
 # from .views import LandingPage
-from .views import CreateList
+from . import views
+from django.urls import path
+
 
 urlpatterns = [
     # path('', LandingPage.as_view(), name='home'),
-    path('', CreateList.as_view(), name='create_list')
+    path('', views.CreateList.as_view(), name='create_list')
 ]
