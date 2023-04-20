@@ -1,4 +1,4 @@
-![Peachesncream logo](/static/images/picture_1.webp)
+![Peachesncream logo](/static/images/picture_1A.webp)
 
 # Peaches 'n cream
 
