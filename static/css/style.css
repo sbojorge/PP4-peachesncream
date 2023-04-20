@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
+    color: #030203;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -18,6 +19,21 @@ body {
 
 main {
     flex: 1 0 auto;
+}
+
+/* Header */
+
+a.brand-logo {
+    font-family: 'Homemade Apple', cursive;
+    color: #030203;
+}
+
+nav ul a {
+    color: #030203;
+}
+
+i.material-icons {
+    color: #030203;
 }
 
 /* Footer */
