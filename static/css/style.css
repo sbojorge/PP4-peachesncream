@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Raleway&display=swap');
 
-h1,h2 {
+h1,h2, .section h5 {
     font-family: 'Homemade Apple', cursive;
 }
 
@@ -33,7 +33,7 @@ main {
     padding: 0 4rem 0 0;        
 }
 
-a.brand-logo {
+a.brand-logo, #title {
     font-family: 'Homemade Apple', cursive;
     color: #030203;
 }
