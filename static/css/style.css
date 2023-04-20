@@ -6,11 +6,13 @@ h1,h2 {
 
 html {
     height: 100%;
+    /* font-size: 62.5%; */
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     color: #030203;
+    font-size: 1.2rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -28,7 +30,7 @@ main {
 }
 
 .nav-wrapper{
-    padding: 0 4rem;        
+    padding: 0 4rem 0 0;        
 }
 
 a.brand-logo {
@@ -49,6 +51,27 @@ a.waves-effect.btn{
     color: #030203;
     background-color: #8c9f38;
     border-radius: 23px;
+}
+
+/* Main */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 50%;
+    width: 50%;
+    padding: 1rem 0;
+    margin: 1rem 0 0 0;
+}
+
+.container p {
+    text-align: center;
+    margin: 0;
 }
 
 /* Footer */

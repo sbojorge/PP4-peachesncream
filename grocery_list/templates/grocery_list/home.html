@@ -1,1 +1,21 @@
-{% extends 'base.html' %} 
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+
+    <img src="{% static '/images/picture_1.webp' %}" alt="peachesncream logo" id="logo">
+    <p>
+        Take your grocery shopping to the next level with this app that will help you write and get your list
+        right at your finger tips.<br>
+        <a href="#" class="waves-effect btn" style="font-weight: bold;">SIGN UP</a> now to create your grocery
+        shopping list.<br>
+        Grocering has never been so pleasant!
+    </p>
+
+
+</div>
+
+{% endblock %}
