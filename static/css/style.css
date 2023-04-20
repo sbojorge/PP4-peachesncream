@@ -23,6 +23,14 @@ main {
 
 /* Header */
 
+.nav {
+    min-height: 100px; 
+}
+
+.nav-wrapper{
+    padding: 0 4rem;        
+}
+
 a.brand-logo {
     font-family: 'Homemade Apple', cursive;
     color: #030203;
@@ -30,10 +38,17 @@ a.brand-logo {
 
 nav ul a {
     color: #030203;
+    font-weight: bold;
 }
 
 i.material-icons {
     color: #030203;
+}
+
+a.waves-effect.btn{
+    color: #030203;
+    background-color: #8c9f38;
+    border-radius: 23px;
 }
 
 /* Footer */
