@@ -11,19 +11,20 @@
     {% endblock %}
     {% block materialize_icons %} 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    {% endblock %}    
+    {% endblock %}        
     <link rel="stylesheet" href="{% static '/css/style.css' %}">
     <title>Peachesncream - {% block title %}{% endblock %}</title>
 </head>
 
 <body>
+    <!-- Navbar for desktop and mobile -->
     {% include 'includes/header.html' %}
-
+    <!-- Content from each page comes here -->
     <main>
         {% block content %} 
         {% endblock %}
     </main>
-
+    <!-- Footer -->
     {% include 'includes/footer.html' %}
 
         

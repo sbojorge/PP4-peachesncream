@@ -7,25 +7,28 @@
             <!-- <a href="#" class="brand-logo">Peaches n cream</a> -->
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                {% if user.is_authenticated %} 
+                {% if user.is_authenticated %}
                 <li><a href="{% url 'account_logout' %}">Logout</a></li>
-                {% else %} 
+                <li><a href="#">New list</a></li>
+                <li><a href="#">Edit list</a></li>
+                {% else %}
                 <li><a href="{% url 'account_signup' %}" class="waves-effect btn">SIGN UP</a></li>
                 <li><a href="{% url 'account_login' %}">Login</a></li>
-                {% endif %}   
-            </ul> 
+                {% endif %}
+            </ul>
         </div>
     </nav>
-                    
+
     <!-- Mobile navbar -->
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">SIGN UP</a></li>
-        <li><a href="#">Login</a></li>
-
-    </ul>
-</header>               
-
-           
-        
-    
+        {% if user.is_authenticated %}
+            <li><a href="{% url 'account_logout' %}">Logout</a></li>
+            <li><a href="#">New list</a></li>
+            <li><a href="#">Edit list</a></li>
+        {% else %}
+            <li><a href="{% url 'account_signup' %}">SIGN UP</a></li>
+            <li><a href="{% url 'account_login' %}">Login</a></li>
+        {% endif %}
+    </ul>    
+</header>
