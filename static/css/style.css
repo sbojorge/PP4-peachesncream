@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-h1,h2, .section h5 {
-    font-family: 'Homemade Apple', cursive;
-}
-
 html {
     height: 100%;
     /* font-size: 62.5%; */
@@ -23,15 +19,39 @@ body {
     background-color: #fff6f5;
 }
 
-main {
-    flex: 1 0 auto;
+/* Headings */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bolder;
+    color: #030203;
+}
+
+h1 {
+    font-size: 2.56rem;
+}
+
+h2 {
+    font-size: 2.28rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.71rem;
+}
+
+h5 {
+    font-size: 1.43rem;
+}
+
+h6 {
+    font-size: 1rem;
 }
 
 /* Header */
-
-.nav {
-    min-height: 100px; 
-}
 
 .nav-wrapper{
     padding: 0 4rem 0 0;        
@@ -59,6 +79,10 @@ a.waves-effect.btn{
 
 /* Main */
 
+main {
+    flex: 1 0 auto;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -76,6 +100,20 @@ a.waves-effect.btn{
 .container p {
     text-align: center;
     margin: 0;
+}
+
+/* Login page */
+
+label {
+    color: #030203;
+    font-size: 1rem;
+}
+
+button.waves-effect.btn {
+    color: #030203;
+    background-color: #8c9f38;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Footer */
