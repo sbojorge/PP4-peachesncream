@@ -51,6 +51,10 @@ List won't be lost nor forgotten, but instead will be right at user's finger tip
 <!-- Currently showing here some examples of technologies that I'll probably use. Develop a bit for each of them as shown below for balsamiq -->
 * HTML
 * CSS
+* JavaScript
+* Django
+* Django Allauth
+    * Authentication and authorisation were done using [Django-allauth](https://django-allauth.readthedocs.io/en/latest/index.html)
 * Materialize
 * GitHub
 * Convertio
