@@ -4,7 +4,7 @@
     <!-- Desktop navbar -->
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Peaches n cream</a><!-- Fix the url to get back to the landig page when signing up/in -->
+            <!-- <a href="{% url 'home' %}" class="brand-logo">Peaches n cream</a> -->
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 {% if user.is_authenticated %}
@@ -12,7 +12,7 @@
                 <li><a href="#">New list</a></li>
                 <li><a href="#">Edit list</a></li>
                 {% else %}
-                
+                <li><a href="{% url 'home' %}">Home</a></li>
                 <li><a href="{% url 'account_signup' %}" class="waves-effect btn">SIGN UP</a></li>
                 <li><a href="{% url 'account_login' %}">Sign in</a></li>
                 {% endif %}
