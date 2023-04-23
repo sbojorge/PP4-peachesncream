@@ -1,4 +1,4 @@
-![Peachesncream logo](/static/images/picture_1A.webp)
+![Peachesncream logo](/static/images/logo/picture_1A.webp)
 
 # Peaches 'n cream
 
@@ -94,15 +94,15 @@ It was put in place using different functionalities in GitHub:
 #### Wireframes
 * Landing page
 
-![Browser landing page](/static/wireframes/picture_1.png)
+![Browser landing page](/static/images/wireframes/picture_1.png)
 
-![Mobile landing page](/static/wireframes/picture_2.png)
+![Mobile landing page](/static/images/wireframes/picture_2.png)
 
 * Create a list
 
-![Browser create a list](/static/wireframes/picture_3.png)
+![Browser create a list](/static/images/wireframes/picture_3.png)
 
-![Mobiel create a list](/static/wireframes/picture_3.png)
+![Mobiel create a list](/static/images/wireframes/picture_4.png)
 
 #### Typography
 A combination of two fonts were used in the desing of the application:<br> 
@@ -113,14 +113,14 @@ This pairing of fonts provides a touch of elegance and clearness to read the res
 
 <br>
 
-![Fonts sample](/static/images/picture_3.png)
+![Fonts sample](/static/images/design/picture_3.png)
 <br>
 
 #### Colors
 The selected color palette for in the application comes from a color generator.<br>
 This combination in the background colors and fonts adds freshness and respect the minimum contrast values for good accesibility. 
 
-![Natural palette](/static/images/picture_2.png)
+![Natural palette](/static/images/design/picture_2.png)
 <br>
 
 #### Images
@@ -131,11 +131,45 @@ This combination in the background colors and fonts adds freshness and respect t
 
 ### Features
 
+The application counts with the following features:
+
+* Landing page
+
+![Landing page on desktop](/static/images/features/picture_1.png)
+
+![Landing page on mobile](/static/images/features/picture_2.png)
+
+* Navigation bar
+
+This element holds 3 links in the landing page: Home, Sign up and Sign in
+
+![Desktop navbar](/static/images/features/picture_3.png)
+
+On medium and small devices, the navigation bar gets collapsed into a hamburguer icon:
+
+![Hamburguer icon](/static/images/features/picture_4.png)
+
+When the user clicks on that icon, the content of the navigation bar is displayed:
+
+![Navbar mobile](/static/images/features/picture_5.png)
+
+* Footer
+
+This section, which is present in all pages of the application, holds social media icons to the GitHub and LinkedIn profiles of the developper:
+
+![Footer](/static/images/features/picture_6.png)
+
 ------
 
 ### Testing
 
-Links to social media works well.
+Links to social media and those related to the app (home, sign up, sign in) works well.
+
+* Accesibility
+
+![Wave accesibility results](/static/images/test/wave_result_landing.png)
+
+There is a warning in the Wave accesibility report and this is related to missing headings in the structure of the page, but in the design none heading is necessary.
 
 ------
 
