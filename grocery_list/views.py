@@ -1,6 +1,6 @@
 from django.views import generic
 from .models import Grocery
-# from django.contrib.auth.mixins import LoginRequiredMixin 
+# from django.contrib.auth.mixins import LoginRequiredMixin
 # use the mixin in the edit and/on delete classes
 
 

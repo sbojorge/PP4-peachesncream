@@ -12,7 +12,7 @@
             <ul>
                 {% for grocery in grocerys %}
                 <li>{{ grocery.name }}</li>
-                <li>{{ grocery.item }}</li>
+                <li>{{ grocery.created_on }}</li>
                 {% empty %}
                 <p>You don't have any list</p>
                 {% endfor %}
