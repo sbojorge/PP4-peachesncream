@@ -150,7 +150,7 @@ USE_TZ = True
 # Account Setup
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
-LOGIN_REDIRECT_URL = 'create_list/'
+LOGIN_REDIRECT_URL = '/create_list'
 LOGOUT_REDIRECT_URL = '/'
 
 # Static files (CSS, JavaScript, Images)
