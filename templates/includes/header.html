@@ -9,12 +9,12 @@
             <ul class="right hide-on-med-and-down">
                 {% if user.is_authenticated %}
                 <li><a href="{% url 'account_logout' %}">Logout</a></li>
-                <li><a href="#">New list</a></li>
+                <li><a href="{% url 'grocery_list' %}">New list</a></li> <!-- The url doesn't correspond with the name of the page-->
                 <li><a href="#">Edit list</a></li> <!-- Edit list name and items including adding new items -->
                 <li><a href="#">Delete list</a></li>
                 {% else %}
                 <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="#">Create a list</a></li>
+                <li><a href="{% url 'grocery_list' %}">Create a list</a></li> <!-- The url doesn't correspond with the name of the page-->
                 <li><a href="{% url 'account_signup' %}" class="waves-effect btn">SIGN UP</a></li>
                 <li><a href="{% url 'account_login' %}">Sign in</a></li>
                 {% endif %}
