@@ -56,10 +56,10 @@ h6 {
     padding: 0 4rem 0 0;        
 }
 
-#title {
+/* #title { This id was used in the heading of the create_list.html
     font-family: 'Homemade Apple', cursive;
     color: #030203;
-}
+} */
 
 nav ul a {
     color: #030203;
