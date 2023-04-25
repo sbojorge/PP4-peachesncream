@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'materialize',
     'crispy_forms',
     'crispy_forms_materialize',
+    'home',
     'grocery_list',
 ]
 
@@ -72,7 +73,9 @@ ROOT_URLCONF = 'shopping_list.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATES_DIR],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+        ],        
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

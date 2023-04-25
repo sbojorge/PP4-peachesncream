@@ -5,13 +5,6 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 # use the mixin in the edit and/on delete classes
 
 
-class LandingPage(generic.TemplateView):
-    """
-    Render the landing page to the UI
-    """
-    template_name = 'grocery_list/home.html'
-
-
 class GroceryList(LoginRequiredMixin, generic.ListView):
     """
     Render grocery shopping list
